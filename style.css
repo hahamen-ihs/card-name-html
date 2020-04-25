@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #eb4d4b;
+    border-bottom: 2px solid #eb4d4b;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#heading{
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#heading2 {
+    color: #444444;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#pcard {
+    color: #444444;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.card-content {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3; /*jarak bayangan nya*/
+    width: 280px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #eb4d4b;
+    height: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    align-items: center;
+}
+
+.cardname {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 75px;
+}
+
+
+.job {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 80px;
+}
+
+.container {
+    padding: 2px 16px ;
+}
+
+.cardcontainer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #444444;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #eb4d4b;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer a {
+    color: #ffffff
+}
+
+.content {
+    display: flex;
+    flex-direction: column; /*mengatur flex horizontal or vertical*/
+    justify-content: center; /*menyelaraskan content secara horizontal*/
+    align-items: center; /*menyelaraskan item secara vertikal lebih dari 1 element*/
+    align-self: auto; /*menyelaraskan item secara vertikal tapi hanya 1 element saja*/
+    flex: 1; /*mengatur halaman kita rensponsive*/
+}
+
+#form {
+    width: 40%;
+}
